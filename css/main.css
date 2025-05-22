@@ -807,11 +807,24 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 .about-section{
     position: relative;
 }
+.about-wrap1 {
+    position: relative;
+}
+
+.about-wrap1 img {
+    position: absolute;
+    top: -20px;         /* Move image upwards */
+    left: -200px;        /* Move image to the left */
+    width: calc(100% + 200px);  /* Expand width */
+    height: auto;
+    z-index: 1;         /* Keep it above background but below any text */
+}
 .about-wrap{
     display: flex;
     align-items: center;
 }
 .about-wrap img{
+    
     width: 100%;
     margin-bottom: 15px;
 }
@@ -844,13 +857,22 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 
 .about-image img{
     width: 100%;
-    border-radius: 5px;
+    border-radius: 10px;
+    
 }
 .about-content h2{
     font-size: 42px;
     margin-bottom: 20px;
+}/*
+.event-img{
+    width: 100%;
+    border-radius: 5px;
 }
-
+.event-content{
+     font-size: 42px;
+    margin-bottom: 20px;
+}
+*/
 /* ==========================================================================
    7.0 Campaigns Section
    ========================================================================== */
@@ -1271,6 +1293,8 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 .hero-content p{
     color: #ddd;
 }
+
+
 /* ==========================================================================
    15.0 Page Header Section
    ========================================================================== */
