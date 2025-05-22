@@ -17,7 +17,7 @@
         }
 
         // Update this to your desired email address.
-        $recipient = "josephgaspar813@gmail.com";
+        $recipient = "info@akmfoundation.or.tz";
 		$subject = "Message from $name";
 
         // Email content.
